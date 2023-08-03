@@ -55,10 +55,10 @@
       background-image: url('../img/footer/vegetables@2x.webp');
     }
     @supports not (
-      background-image: url('/src/img/Veggie/vegetables@2x.webp')
+      background-image: url('../src/img/Veggie/vegetables@2x.webp')
     ) {
       .photo-footer {
-        background-image: url('/src/img/Veggie/vegetables@2x.png');
+        background-image: url('../src/img/Veggie/vegetables@2x.png');
       }
     }
   }
