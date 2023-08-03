@@ -15,6 +15,8 @@
 
 .how-works-pic {
     margin-bottom: 20px;
+    width: 335px;
+    height: 158px;
 }
 
 .wrapper-text {
@@ -51,6 +53,8 @@
 
     .how-works-pic {
         margin-bottom: 0;
+        width: 310px;
+        height: 176px;
     }
 
     .wrapper-text {
@@ -80,6 +84,11 @@
         margin-right: 192px;
         font-size: 48px;
         line-height: 1.04;
+    }
+
+    .how-works-pic {
+        width: 410px;
+        height: 170px;
     }
 
     .wrapper-flex {
