@@ -1,0 +1,16 @@
+.bg {
+    border-radius: 40px;
+    background-color: #FAF3E7;
+}
+
+.bg-pointer {
+    background-size: 40.2px 41.46px;
+    background-repeat: repeat;
+    background-position: 10px 28px;
+    background-image: radial-gradient(circle, rgba(161, 196, 135, 0.69), 3px, transparent 3px);
+}
+
+.advertisment {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
