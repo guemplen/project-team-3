@@ -1,0 +1,75 @@
+<!-- ~~~~~ Delivery ~~~~~ -->
+<section class="section delivery-section">
+    <div class="container delivery-container">
+      <h2 class="visually-hidden">Delivery</h2>
+      <picture>
+        <!-- Desctop screen >= 1280px -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="../img/delivery-img/desk_delivery@1x.png 1x, ../img/delivery-img/desk_delivery@2x.png 2x,"
+          type="image/png"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/delivery-img/desk_delivery@1x.webp 1x,
+            ../img/delivery-img/desk_delivery@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <!-- Tablet screen >= 768 -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/delivery-img/tab_delivery@1x.png 1x,
+            ../img/delivery-img/tab_delivery@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/delivery-img/tab_delivery@1x.webp 1x,
+            ../img/delivery-img/tab_delivery@2x.webp 2x
+          "
+          type="image/webp"
+          
+        />
+        <!-- Mobile screen <= 767 -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/delivery-img/mob_delivery@1x.png 1x,
+            ../img/delivery-img/mob_delivery@2x.png 2x
+          "
+          type="image/png"
+          
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/delivery-img/mob_delivery@1x.webp 1x,
+            ../img/delivery-img/mob_delivery@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <img
+          class="delivery-img"
+          src="../img/delivery-img/mob_delivery@1x.png"
+          alt="illustration: Next to the green moped, the courier hands the
+        order to the buyer"
+         
+          loading="lazy"
+        />
+      </picture>
+      <div class="delivery-container-txt">
+        <p class="delivery-txt">
+            The best shipping for you!
+            <span class="green-txt">Your products</span>&nbsp; always arrive in the 
+            <span class="orange-txt"> best</span>&nbsp; conditions!
+          </p>
+    </div>
+    </div>
+  </section>
+  <!--````` delivery end `````-->
