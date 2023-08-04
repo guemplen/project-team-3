@@ -44,3 +44,13 @@
 .modal-close-icon {
   stroke: var(--black);
 }
+
+.wrapper-checkbox-card {
+  width: 295px;
+  height: 120px;
+  background-color: var(--lite-orange);
+  border-radius: 20px;
+  background-image: url('../img/modal/phone/cabbage.webp');
+  background-repeat: no-repeat;
+  background-position: 171px 33px;
+}
