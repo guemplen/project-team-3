@@ -3,9 +3,12 @@
     padding-bottom: 80px;
 }
 
+
+
 .how-works-title {
     margin-bottom: 20px;
     color: var(--black);
+    font-family: DM Sans;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -27,6 +30,7 @@
 
 .main-text-style {
     color: var(--black);
+    font-family: DM Sans;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.04em;
@@ -70,6 +74,13 @@
 
     }
 
+    .main-text-style.one{
+        width: 317px;
+    }
+        .main-text-style.two{
+        width: 279px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -99,4 +110,11 @@
         gap: 40px;
         max-width: 687px;
     }
+        .main-text-style.one{
+        width: 353px;
+    }
+        .main-text-style.two{
+        width: 294px;
+    }
+
 }
