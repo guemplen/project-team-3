@@ -12,7 +12,7 @@
           <input
             type="checkbox"
             id="cabbage-basket"
-            name="сabbage_basket"
+            name="cabbage_basket"
             value="done"
             class="cabbage_basket visually-hidden"
           />
@@ -22,6 +22,43 @@
                 <use href="../img/icons.svg#icon-pick"></use>
               </svg>
             </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/cabbage.webp    1x,
+                  ./img/modal/phone/cabbage@2x.webp 2x,
+                  ./img/modal/phone/cabbage.png     1x,
+                  ./img/modal/phone/cabbage@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) "
+                srcset="
+                  ./img/modal/tablet/cabbageTablet.webp    1x,
+                  ./img/modal/tablet/cabbageTablet@2x.webp 2x,
+                  ./img/modal/tablet/cabbageTablet.png     1x,
+                  ./img/modal/tablet/cabbageTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  photo-laptop.jpg     1x,
+                  photo-laptop-2x.jpg  2x,
+                  photo-laptop.webp    1x,
+                  photo-laptop-2x.webp 2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
             <h2 class="title-checkbox-card">Cabbage Basket</h2>
             <p class="subtitle-checkbox-card">Plant</p>
           </div>
@@ -41,6 +78,43 @@
                 <use href="../img/icons.svg#icon-pick"></use>
               </svg>
             </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/tomato.webp    1x,
+                  ./img/modal/phone/tomato@2x.webp 2x,
+                  ./img/modal/phone/tomato.png     1x,
+                  ./img/modal/phone/tomato@2x.png
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) "
+                srcset="
+                  ./img/modal/tablet/tomatoTablet.webp    1x,
+                  ./img/modal/tablet/tomatoTablet@2x.webp 2x,
+                  ./img/modal/tablet/tomatoTablet.png     1x,
+                  ./img/modal/tablet/tomatoTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  photo-laptop.jpg     1x,
+                  photo-laptop-2x.jpg  2x,
+                  photo-laptop.webp    1x,
+                  photo-laptop-2x.webp 2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
             <h2 class="title-checkbox-card">Tomato Basket</h2>
             <p class="subtitle-checkbox-card">Plant</p>
           </div>
@@ -60,6 +134,43 @@
                 <use href="../img/icons.svg#icon-pick"></use>
               </svg>
             </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/vegetables-basket.webp    1x,
+                  ./img/modal/phone/vegetables-basket@2x.webp 2x,
+                  ./img/modal/phone/vegetables-basket.png     1x,
+                  ./img/modal/phone/vegetables-basket@2x.png
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) "
+                srcset="
+                  ./img/modal/tablet/vagetablesTablet.webp    1x,
+                  ./img/modal/tablet/vagetablesTablet@2x.webp 2x,
+                  ./img/modal/tablet/vagetablesTablet.png     1x,
+                  ./img/modal/tablet/vagetablesTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  photo-laptop.jpg     1x,
+                  photo-laptop-2x.jpg  2x,
+                  photo-laptop.webp    1x,
+                  photo-laptop-2x.webp 2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
             <h2 class="title-checkbox-card">Vegetables Basket</h2>
             <p class="subtitle-checkbox-card">Plant</p>
           </div>
@@ -96,8 +207,14 @@
           placeholder="Enter card..."
           class="input-common input-name"
         />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea
+          name="comment-user"
+          id="comment-user"
+          class="textarea-form"
+          placeholder="Enter comments"
+        ></textarea>
       </div>
+      <button type="submit" class="send-form-btn">Submit</button>
     </form>
   </div>
 </div>
