@@ -181,13 +181,13 @@
     margin-right: 0;
     width: calc((100% - 77px) / 2);
     background-position: 4px 0;
-    background-image: url('/img/we-will-call-you/BG-desk.png');
+    background-image: url('/img/we-will-call-you/BG-DESK.png');
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .div-call-you {
-      background-image: url('/img/we-will-call-you/BG-desk@2x.png');
+      background-image: url('/img/we-will-call-you/BG-DESK@2x.png');
     }
   }
 }
