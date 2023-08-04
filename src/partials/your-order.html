@@ -7,23 +7,97 @@
       </svg>
     </button>
     <form class="form-general">
-      <input
-        type="checkbox"
-        id="cabbage-basket"
-        name="сabbage_basket"
-        value="done"
-      />
-      <label for="cabbage-basket">
-        <div class="wrapper-checkbox-card">
-          <div class="icon-illusion">
-            <svg class="icon-ckeckbox" width="6" height="6">
-              <use href="../img/icons.svg#icon-pick"></use>
-            </svg>
+      <div class="wrapper-checkbox">
+        <label for="cabbage-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="cabbage-basket"
+            name="сabbage_basket"
+            value="done"
+            class="cabbage_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card cabbage">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <h2 class="title-checkbox-card">Cabbage Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
           </div>
-          <h2 class="title-checkbox-card">Cabbage Basket</h2>
-          <p class="subtitle-checkbox-card">Plant</p>
-        </div>
-      </label>
+        </label>
+
+        <label for="tomato-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="tomato-basket"
+            name="tomato_basket"
+            value="done"
+            class="tomato_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card tomato">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <h2 class="title-checkbox-card">Tomato Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+
+        <label for="vegetables-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="vegetables-basket"
+            name="vegetables_basket"
+            value="done"
+            class="vegetables_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card vegetables">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <h2 class="title-checkbox-card">Vegetables Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+      </div>
+      <div class="wrapper-input-text">
+        <input
+          name="user-name"
+          type="text"
+          id="user_name"
+          required
+          pattern="^{a-zA-Z а-яА-я іІЇї}+$"
+          minlength="2"
+          placeholder="Enter full name..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-email"
+          type="email"
+          id="user_email"
+          required
+          minlength="2"
+          placeholder="Enter email..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-card"
+          type="text"
+          id="user_card"
+          required
+          minlength="2"
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter card..."
+          class="input-common input-name"
+        />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
     </form>
   </div>
 </div>
