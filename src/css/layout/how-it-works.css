@@ -50,7 +50,7 @@
 
     .how-works-title {
         margin-bottom: 0;
-
+width: 386px;
         font-size: 40px;
         line-height: 1.1;
     }
@@ -91,7 +91,7 @@
     }
 
     .how-works-title {
-        max-width: 614px;
+        width: 614px;
         margin-right: 192px;
         font-size: 48px;
         line-height: 1.04;
