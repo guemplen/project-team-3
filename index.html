@@ -17,8 +17,8 @@
     />
 
     
-    <script type="module" crossorigin src="/project-team-3/assets/index-1d997ed6.js"></script>
-    <link rel="stylesheet" href="/project-team-3/assets/index-1f28f1d5.css">
+    <script type="module" crossorigin src="/project-team-3/assets/index-44394d92.js"></script>
+    <link rel="stylesheet" href="/project-team-3/assets/index-ea915033.css">
   </head>
   <body>
     <header class="page-header">
@@ -370,7 +370,42 @@
       <div class="footer-wrapper">
         <div class="wrapper-logo-and-navigation">
           <div class="logo-and-photo">
-            <div class="photo-footer"></div>
+            <div class="photo-footer">
+              <picture>
+                <!-- Зображення для телефону  -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="/project-team-3/assets/vegetablesPhone@1x-387bc2e6.webp 1x, /project-team-3/assets/vegetablesPhone@2x-d35acd60.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="/project-team-3/assets/vegetablesPhone@1x-c488ec58.png 1x, /project-team-3/assets/vegetablesPhone@2x-9576135a.png 2x"
+                  type="image/png"
+                />
+
+                <!-- Зображення для планшета та десктопу -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="/project-team-3/assets/vegetables@1x-e4858250.webp 1x, /project-team-3/assets/vegetables@2x-df399ce2.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/footer/phone/vegetables@1x.png 1x,
+                    ./img/footer/phone/vegetables@2x.png 2x
+                  "
+                  type="image/png"
+                />
+
+                <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+                <img
+                  src="/project-team-3/assets/vegetablesPhone@1x-387bc2e6.webp"
+                  alt="Броколі"
+                />
+              </picture>
+            </div>
             <div class="logo-wrapper-footer">
               <svg class="logo-footer-svg" width="16" height="16">
                 <use href="/project-team-3/assets/icons-e4210cf5.svg#icon-logo"></use>
