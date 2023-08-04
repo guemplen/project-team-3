@@ -12,9 +12,6 @@
     background-image: radial-gradient(circle, rgba(161, 196, 135, 0.69), 3px, transparent 3px);
 }
 
-.advertisment {
-    padding-bottom: 80px;
-}
 
 .advertisment-title {
     display: block;
@@ -74,6 +71,11 @@
 
 .advertisment-img {
     margin: 0 auto;
+}
+
+.marquee{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .marquee-orange {
@@ -170,7 +172,6 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-bottom: 102px;
     }
 
     .advertisment-img {
@@ -216,6 +217,11 @@
         height: 46px;
         line-height: 2.5em;
     }
+
+    .marquee{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
     .marquee-orange {
         height: 64px;
         transform: rotate(2deg);
@@ -250,10 +256,6 @@
         background-position: 7px -11px;
     }
 
-    .advertisment-flex {
-        margin-bottom: 124px;
-    }
-
     .advertisment-img {
         width: 434px;
         height: 420px;
@@ -279,6 +281,11 @@
     .advertisment-items {
         width: 350px;
         padding: 0 0 20px 54px;
+    }
+
+    .marquee{
+        padding-top: 124px;
+        padding-bottom: 124px;
     }
 
     .marquee-orange {
