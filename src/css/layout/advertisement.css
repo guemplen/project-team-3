@@ -1,16 +1,306 @@
 .bg {
     border-radius: 40px;
     background-color: #FAF3E7;
+    padding-top: 40px;
+    margin-bottom: 80px;
 }
 
 .bg-pointer {
     background-size: 40.2px 41.46px;
     background-repeat: repeat;
-    background-position: 10px 28px;
+    background-position: -15px -17px;
     background-image: radial-gradient(circle, rgba(161, 196, 135, 0.69), 3px, transparent 3px);
 }
 
 .advertisment {
-    padding-top: 40px;
     padding-bottom: 80px;
+}
+
+.advertisment-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 295px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.advertisment-list {
+    counter-reset: li;
+    list-style: none;
+}
+
+.advertisment-items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 45px 0 54px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    width: 275px;
+
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+}
+
+.advertisment-items::before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: 0;
+    background: var(--green);
+    height: 38px;
+    width: 40px;
+    color: #141414;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .3s ease-out;
+}
+
+.advertisment-img {
+    margin: 0 auto;
+}
+
+.marquee-orange {
+    overflow: hidden;
+    color: #F9F7F4;
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    display: flex;
+    width: 100%;
+    height: 54px;
+    transform: rotate(2.987deg);
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--orange);
+}
+
+.marquee-green {
+    overflow: hidden;
+    color: #F9F7F4;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    display: flex;
+    width: 100%;
+    height: 54px;
+    transform: rotate(-5.959deg);
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--green);
+}
+
+.percent {
+    color: #F9F7F4;
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.vitamins {
+    color: #F9F7F4;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.marquee__inner {
+    display: flex;
+}
+
+.advertisment-strip {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marqueeLine {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .bg {
+        border-radius: 80px;
+    }
+
+    .bg-pointer {
+        background-position: -16px -11px;
+
+    }
+
+    .advertisment-flex {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 102px;
+    }
+
+    .advertisment-img {
+        width: 350px;
+        height: 446px;
+    }
+
+    .advertisment-title {
+        margin: 40px;
+        width: 275px;
+
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+    }
+
+    .advertisment-list {
+        margin: 40px 40px 80px 40px;
+    }
+
+    .advertisment-items {
+        margin: 0;
+        padding: 0 45px 0 54px;
+        width: 275px;
+
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.04em;
+    }
+
+    .advertisment-items:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .advertisment-items::before {
+        width: 44px;
+        height: 46px;
+        line-height: 2.5em;
+    }
+    .marquee-orange {
+        height: 64px;
+        transform: rotate(2deg);
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .marquee-green {
+        height: 64px;
+        transform: rotate(-4deg);
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .percent {
+        font-size: 28px;
+        line-height: 1.14;
+    }
+    .vitamins{
+        font-size: 28px;
+        line-height: 1.14;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .bg {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .bg-pointer {
+        background-position: 7px -11px;
+    }
+
+    .advertisment-flex {
+        margin-bottom: 124px;
+    }
+
+    .advertisment-img {
+        width: 434px;
+        height: 420px;
+    }
+
+    .advertisment-title {
+        width: 512px;
+        margin: 40px 0;
+        font-family: DM Sans;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -0.04em;
+
+    }
+
+    .advertisment-list {
+        width: 350px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .advertisment-items {
+        width: 350px;
+        padding: 0 0 20px 54px;
+    }
+
+    .marquee-orange {
+        height: 100px;
+        transform: rotate(3deg);
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .marquee-green {
+        height: 100px;
+        transform: rotate(-2deg);
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .percent {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .vitamins{
+        font-size: 40px;
+        line-height: 1.2;
+    }
 }
