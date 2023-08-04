@@ -6,7 +6,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
   border-radius: 40px;
-  background-image: url('../../img/delivery-img/bg_mob_delivery.svg');
+  background-image: url('../utils/img/delivery-img/bg_mob_delivery.svg');
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 80px;
-    background-image: url('../../img/delivery-img/bg_tab_delivery.svg');
+    background-image: url('../utils/img/delivery-img/bg_tab_delivery.svg');
     background-position: 0px -2px;
   }
 }
@@ -31,7 +31,7 @@
   justify-content: center;
     padding: 44px 64px;
     background-image: url(
-      '../../img/delivery-img/bg_desk_delivery.svg');
+      '../utils/img/delivery-img/bg_desk_delivery.svg');
     background-position: 0px -2px; }
 }
 
