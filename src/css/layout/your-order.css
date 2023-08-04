@@ -13,7 +13,7 @@
   pointer-events: none;
 }
 .modal {
-  width: 335px;
+  max-width: 335px;
 
   background-color: #fff;
   margin: 0 auto;
@@ -47,7 +47,7 @@
 }
 
 .wrapper-checkbox-card {
-  width: 295px;
+  max-width: 295px;
   height: 120px;
   background-color: var(--lite-orange);
   border-radius: 20px;
@@ -109,7 +109,7 @@
   gap: 14px;
 }
 .input-common {
-  width: 100%;
+  max-width: 100%;
   border: 1px solid rgba(20, 20, 20, 0.3);
   border-radius: 100px;
   height: 46px;
@@ -173,6 +173,37 @@
 }
 @media screen and (min-width: 768px) {
   .modal {
-    width: 704px;
+    max-width: 704px;
+    padding: 40px;
+  }
+  .title-modal {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+  .wrapper-checkbox {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .wrapper-checkbox-card {
+    width: 200px;
+    height: 250px;
+    padding-top: 40px;
+  }
+  .picture-checkbox-card {
+    top: 94px;
+    right: 14px;
+  }
+  .input-common {
+    max-width: 360px;
+    height: 48px;
+  }
+  .textarea-form {
+    width: 360px;
+    height: 145px;
+  }
+  .send-form-btn {
+    .padding: 15px 35px;
   }
 }
