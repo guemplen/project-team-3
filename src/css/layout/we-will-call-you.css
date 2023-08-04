@@ -78,7 +78,7 @@
   background-color: #eaf7e5;
   border-radius: 40px;
   padding-top: 31px;
-  background-image: url(../../img/we-will-call-you/BG.png);
+  background-image: url(./../img/we-will-call-you/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -23px 5px;
@@ -87,7 +87,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .div-call-you {
-    background-image: url(../../img/we-will-call-you/BG@2x.png);
+    background-image: url(./../img/we-will-call-you/BG@2x.png);
   }
 }
 
@@ -123,13 +123,13 @@
     padding-right: 38px;
     max-width: 704px;
     background-position: -15px 9px;
-    background-image: url(../../img/we-will-call-you/BG-TAB.png);
+    background-image: url(./../img/we-will-call-you/BG-TAB.png);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .div-call-you {
-      background-image: url(../../img/we-will-call-you/BG-TAB@2x.png);
+      background-image: url(./../img/we-will-call-you/BG-TAB@2x.png);
     }
   }
 }
@@ -177,13 +177,13 @@
     margin-right: 0;
     width: calc((100% - 77px) / 2);
     background-position: 4px 0;
-    background-image: url(../../img/we-will-call-you/BG-desk.png);
+    background-image: url(./../img/we-will-call-you/BG-desk.png);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .div-call-you {
-      background-image: url(../../img/we-will-call-you/BG-desk@2x.png);
+      background-image: url(./../img/we-will-call-you/BG-desk@2x.png);
     }
   }
 }
