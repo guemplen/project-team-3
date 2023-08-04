@@ -4,7 +4,7 @@
 }
 
 .photo-footer {
-  background-image: url('./img/footer/phone/vegetablesPhone@1x.webp');
+  background-image: url('../img/footer/phone/vegetablesPhone@1x.webp');
   background-repeat: no-repeat;
   background-position: center;
   height: 172px;
@@ -13,10 +13,10 @@
 }
 
 @supports not (
-  background-image: url('./img/footer/phone/vegetablesPhone@1x.webp')
+  background-image: url('../img/footer/phone/vegetablesPhone@1x.webp')
 ) {
   .photo-footer {
-    background-image: url('./img/footer/phone/vegetablesPhone@1x.png');
+    background-image: url('../img/footer/phone/vegetablesPhone@1x.png');
   }
 }
 
@@ -24,27 +24,27 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .photo-footer {
-    background-image: url('./img/footer/phone/vegetablesPhone@2x.webp');
+    background-image: url('../img/footer/phone/vegetablesPhone@2x.webp');
     background-size: contain;
   }
   @supports not (
-    background-image: url('./img/footer/phone/vegetablesPhone@2x.webp')
+    background-image: url('../img/footer/phone/vegetablesPhone@2x.webp')
   ) {
     .photo-footer {
-      background-image: url('./img/footer/phone/vegetablesPhone@2x.png');
+      background-image: url('../img/footer/phone/vegetablesPhone@2x.png');
     }
   }
 }
 
 @media screen and (min-width: 768px) {
   .photo-footer {
-    background-image: url('./img/footer/vegetables@1x.webp');
+    background-image: url('../img/footer/vegetables@1x.webp');
     width: 350px;
     height: 180px;
   }
-  @supports not (background-image: url('./img/footer/vegetables@1x.webp')) {
+  @supports not (background-image: url('../img/footer/vegetables@1x.webp')) {
     .photo-footer {
-      background-image: url('./img/footer/vegetables@1x.png');
+      background-image: url('../img/footer/vegetables@1x.png');
     }
   }
 
@@ -52,13 +52,13 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .photo-footer {
-      background-image: url('./img/footer/vegetables@2x.webp');
+      background-image: url('../img/footer/vegetables@2x.webp');
     }
     @supports not (
-      background-image: url('./src/img/Veggie/vegetables@2x.webp')
+      background-image: url('../src/img/Veggie/vegetables@2x.webp')
     ) {
       .photo-footer {
-        background-image: url('./src/img/Veggie/vegetables@2x.png');
+        background-image: url('../src/img/Veggie/vegetables@2x.png');
       }
     }
   }
