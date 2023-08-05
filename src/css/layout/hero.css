@@ -90,9 +90,13 @@
   background-color: var(--lite-orange);
   margin-bottom: 8px;
   transition: color 250ms linear, background-color 250ms linear;
+  transform: scale();
+  transition-property: transform;
+  transition-duration: 250ms;
 }
 .hero-order-btn:focus {
   background-color: var(--light-green);
+  transform: scale(0.75);
 }
 .hero-order-btn-text {
   transform: rotate(-14deg);
@@ -172,6 +176,17 @@
     width: 54px;
     height: 54px;
   }
+  .review-text {
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+  }
+  .rewiev-text-number {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
   .hero-title {
     max-width: 656px;
     font-size: 54px;
@@ -234,6 +249,17 @@
     width: 70px;
     height: 70px;
   }
+  .review-text {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.48px;
+  }
+  .review-text-number {
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.96px;
+  }
+
   .hero-title {
     max-width: 672px;
     font-size: 64px;
