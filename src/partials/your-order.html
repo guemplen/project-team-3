@@ -1,0 +1,220 @@
+<div data-modal class="backdrop">
+  <div class="modal">
+    <h2 class="title-modal">your order</h2>
+    <button data-modal-close class="modal-close-btn">
+      <svg class="modal-close-icon" height="24" width="24">
+        <use href="./img/icons.svg#icon-close-button"></use>
+      </svg>
+    </button>
+    <form class="form-general">
+      <div class="wrapper-checkbox">
+        <label for="cabbage-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="cabbage-basket"
+            name="cabbage_basket"
+            value="done"
+            class="cabbage_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card cabbage">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/cabbage.webp    1x,
+                  ./img/modal/phone/cabbage@2x.webp 2x,
+                  ./img/modal/phone/cabbage.png     1x,
+                  ./img/modal/phone/cabbage@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width: 1279px) "
+                srcset="
+                  ./img/modal/tablet/cabbageTablet.webp    1x,
+                  ./img/modal/tablet/cabbageTablet@2x.webp 2x,
+                  ./img/modal/tablet/cabbageTablet.png     1x,
+                  ./img/modal/tablet/cabbageTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/modal/desctop/cabbageDesc.webp    1x,
+                  ./img/modal/desctop/cabbageDesc@2x.webp 2x,
+                  ./img/modal/desctop/cabbageDesc.png     1x,
+                  ./img/modal/desctop/cabbageDesc@2x.png  2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Cabbage Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+
+        <label for="tomato-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="tomato-basket"
+            name="tomato_basket"
+            value="done"
+            class="tomato_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card tomato">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/tomato.webp    1x,
+                  ./img/modal/phone/tomato@2x.webp 2x,
+                  ./img/modal/phone/tomato.png     1x,
+                  ./img/modal/phone/tomato@2x.png
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width:1279px) "
+                srcset="
+                  ./img/modal/tablet/tomatoTablet.webp    1x,
+                  ./img/modal/tablet/tomatoTablet@2x.webp 2x,
+                  ./img/modal/tablet/tomatoTablet.png     1x,
+                  ./img/modal/tablet/tomatoTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/modal/desctop/tomatoDesc.webp    1x,
+                  ./img/modal/desctop/tomatoDesc@2x.webp 2x,
+                  ./img/modal/desctop/tomatoDesc.png     1x,
+                  ./img/modal/desctop/tomatoDesc@2x.png  2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Tomato Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+
+        <label for="vegetables-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="vegetables-basket"
+            name="vegetables_basket"
+            value="done"
+            class="vegetables_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card vegetables">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/modal/phone/vegetables-basket.webp    1x,
+                  ./img/modal/phone/vegetables-basket@2x.webp 2x,
+                  ./img/modal/phone/vegetables-basket.png     1x,
+                  ./img/modal/phone/vegetables-basket@2x.png
+                "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width:1279px)"
+                srcset="
+                  ./img/modal/tablet/vegetables-baskeTablet.webp     1x,
+                  ./img/modal/tablet/vegetables-basketTablet@2x.webp 2x,
+                  ./img/modal/tablet/vegetables-baskeTablet.png      1x,
+                  ./img/modal/tablet/vegetables-basketTablet@2x.png  2x
+                "
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/modal/desctop/vegetablesDesc.webp    1x,
+                  ./img/modal/desctop/vegetablesDesc@2x.webp 2x,
+                  ./img/modal/desctop/vegetablesDesc.png     1x,
+                  ./img/modal/desctop/vegetablesDesc@2x.png  2x
+                "
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Vegetables Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+      </div>
+      <div class="wrapper-input-text">
+        <input
+          name="user-name"
+          type="text"
+          id="user_name"
+          required
+          pattern="^{a-zA-Z а-яА-я іІЇї}+$"
+          minlength="2"
+          placeholder="Enter full name..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-email"
+          type="email"
+          id="user_email"
+          required
+          minlength="2"
+          placeholder="Enter email..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-card"
+          type="text"
+          id="user_card"
+          required
+          minlength="2"
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter card..."
+          class="input-common input-name"
+        />
+        <textarea
+          name="comment-user"
+          id="comment-user"
+          class="textarea-form"
+          placeholder="Enter comments"
+        ></textarea>
+      </div>
+      <button type="submit" class="send-form-btn">Submit</button>
+    </form>
+  </div>
+</div>
