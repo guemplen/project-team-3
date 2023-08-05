@@ -25,7 +25,7 @@
 .mobile-close-button {
   display: flex;
   align-items: center;
-  padding-left: 125px;
+  padding-left: 42px;
   background-color: var(--white);
 }
 
