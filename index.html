@@ -17,8 +17,8 @@
     />
 
     
-    <script type="module" crossorigin src="/project-team-3/assets/index-87dcadc9.js"></script>
-    <link rel="stylesheet" href="/project-team-3/assets/index-54a73449.css">
+    <script type="module" crossorigin src="/project-team-3/assets/index-1393c3a2.js"></script>
+    <link rel="stylesheet" href="/project-team-3/assets/index-352f548e.css">
   </head>
   <body>
     <header class="page-header">
@@ -682,7 +682,182 @@
   </div>
 </footer>
 
-    
+    <div data-modal class="backdrop">
+  <div class="modal">
+    <h2 class="title-modal">your order</h2>
+    <button data-modal-close class="modal-close-btn">
+      <svg class="modal-close-icon" height="24" width="24">
+        <use href="/project-team-3/assets/icons-e4210cf5.svg#icon-close-button"></use>
+      </svg>
+    </button>
+    <form class="form-general">
+      <div class="wrapper-checkbox">
+        <label for="cabbage-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="cabbage-basket"
+            name="cabbage_basket"
+            value="done"
+            class="cabbage_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card cabbage">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/webp;base64,UklGRkYJAABXRUJQVlA4WAoAAAAQAAAAXQAATQAAQUxQSA8EAAABoEXb2iFJullolNG2bdu2bdu2bdu2bdu2bWYp7kNExh/x/zl4jIgJwP+7mZbdunRgSZcsPm7Jq8dHGmqvD47K4+FmvOrfpfmHkwt6uJNekeSRHVfeaS5I7ULPZG7D9z7J0nCEFO69+4sRyfeLcruJYiSZHIbR6qx7bURGbsnuFlqSfO8wApC4xZEoA/LXjBRuYATJbTCfeekvA/JPt0DltpAcIwDEGffVgLxVRLX7JNsIAYkXhxkwbIqnUt4RJMtZAOS9bEDeTqVSUpLMaAk8a70y4J9uCuUjGRbPGiDuJgNq46IrU43kJx+r4OgWpiPHKtOe5AOHZUDpjwZ/KqgyluRe2Jn4mI5nfBVZTXKOLQi4rNOyKrKXZH97kPs3SdZUw/MkyVauYmWp0rhu8WQxBBy7dR3UiHGNZD2jfLMfU//n8sI68c2gna6vGoGPSJbR5dyu0ezv1RV8XNVSKO4nknmB0PmRFP4wNovDoIquuxrJIkhm8u4QTku107X9AVTWdVQjK0mWO6/R8g/jk6GKro0aRXQabY3cOU7XUo0GOjlbqDFGnlZqrJDn24rk8jmGafKQzpEBksVaScnn2pW45+KVc4fWjG8UfJSyR8Wzw6/x7i80fDkyAEDwAcpfxI4eNLs8CFhDBcvbkOCFKa72bEwVK9hQmea1LIOUKG1DdwHW76xCRDobxoj0rq3CGljvOCEypoQCj/1sSKCJzMoSIV8F2JiBokM8d8lX3I6ASAFnTvh9ka6iHRhnTusD4JZ01W1pZO6QN4Dr0pW3o3aYudoAcFS6qjaU+0jzLXQbpRtqXay3FDzvA2CydK1c+QSJ1KWo1gpAHenyAXBk77biSRSv9ExkJsZ2IS4D0Eg2LRkQf7uTxt+7RnfVneJbAYyU7Q+Q8g3N3ornoqcFYwH0k+0nvG/T/CIXNcWcRQBUkm0zelPwb3SjrJrQcS8gej6nXBt94nwSYUajkA9C+yceePCdUmvzo2EqhdMZoZOQgpETPEM+C73xcuFYphx5azGF18B10tfqWfgrqwnkPOF+JsF0wOjfbuZAqDk4SsxeNmaGu4g63sELVtZS73uY8/2xQYlgcWPpPogNSpDIB9YXkW1ND7GrsNX/t1xzYkwVY2pb0DBCpnFAZwua24Nqn104R3624ObAN2YmeQPBkWJVbUJw3VXnLpwYX8J3Bi3chaB+X420gdCvEPrkZZdLxxTNivkA4k11kozs5mWQ9rfIVUiaU6OVdaFPPcv5ti5cdhQIqyzLRFp5LcQASJEEJvtEmBrqIcs0SxrCUkeV85qL6zUhbQ0rZsWwBvArM2rh8Pp1qhUMhLz+azWhNd5wq+V2fzGhPd1b1QF361eiYa91h5+GvZ+V2wdu2yOmAyoDAFZQOCAQBQAA8BgAnQEqXgBOAD6RPJdIJaMiIS70nHiwEglmAMwUdtHemyGbu8jfwodu3zvmm5UCj2Jd/vkhDHG0G+y59MYz7vI2tmnJs62JcUuPGaAqrNa0jEogp9lyLG9I6Ghfl2J2e+xvQrxQDyJ86FfK3ZcdK/w7jvE4xjvx7i9a3EW0IW/di7OLVx4m+p5zd6zRCrEOSfJAXK0y9vKeGQDHW7CNU//yUQrHfy2+bE7T9h+q2aipwycmjgZqHCv7DE2lAjn14v1gsG8rRXJfn/fRjRFzwAD+/bT9f7MnyyGQxx7o34V7Bbh3+I6pZeGtun8C9fkEyZmtmZcdey3w/pDOJ0EUls+nvyP6qPMG1J7UGOkhlb+CtTx/43qAAflPzY1fvzwoNo5QKp6/UvKHqpkPe0nN9MsLVft3ku7OCcz6epNk5gU1SO3vyN+mXMxj34XcRRbafrhoPNP/En5/HmSNIfgOXMty4LqfrHvZUinOu8DZipkZbh3rtr3056hDSctcUNJSdvVehMyGEqg2hk8thE2SfvJ9fa6Mcy9I52jxCrJc1AUnFWL1NH/dGAI9Z32+9laVZvarWm1SA3U8h4kbC0Y68oxz6ml6hsD5qO/QGro3PzgmETt5Jp1eq/ZelJNBFGnSZXLCirFIPP2JNlIRgk/nj58cF1J98y6GmJRBUp8z6sQRzynrkGqX83f6SDd/B/1MaldDbGURIiEPHBOH0WBSODVhI2XuHGrDt6est4ab9ezwfgz1+omxYvEXMob7yvGYWQmn2vALoi6HE+4JlPh65eag/N+5iy1AmgpW03tcKK4tSa5XEFkASOPgz14QGGHDArMTsx2aaJ3DCfjXCmri6RpnQ9w3OJ/eUa9djjKU2cLoN68hx+zEuRBsSafDVV6ew884EjcEtyevnV7UiMqjZiTUCl4zm45ZlUtbpSuFD/1hRX6TqRhDlNA/dfO4spKmFnwdKmuEQTWNwZLzfDM6XZ3iqvj7X5jad6f6uuEHziypG5S2yHkfrdyiVMTAuVnCVEc/W+AWHLKCydIvAWayK2gJN7bRxGM5PDcybz7JS4nacfHNAnh+//pgd5v1zqRCgydVSAkyOaqtf0CPSkMf/bCyia1OVDH5kZ0R+gDyRThyh9SVIddeplE3gQOvnwkqdoWHtA0AmZG/1m1wtNIH6Yxxs7fUe8uKPNy1+fZOT2Vgmx7+I7x8xAk4/OrRVrChZj1hqrs0+I2vKdIlGhOhXbCs4VTs8bd12RuTZEkVIJiNgwFAPWuirFo5f5nVupQnRho5KGXSQpaaPZvkYfS45n9NDkGl8561+cr9o7pTQneaZiSm/idSYg+58bGtIwrr5PVxSDeMEGs8AD2Yc3BETdrtzbOtkemfICyKNGpLI6L3UtGjy5JBhEVomp9WKF+UVTtclbPKwEMSSgFID4uP//lof/8qP//+Vllg3W34MNKJaiWXPYL2b2ZOMLge1CLvJiJLgfGVmrM/mAzQeJC/R9ukBGPerwYaWzlOI3fbeA1odb/BQGkGpKsZ2YcOQtgCJr+nEDw8ynIw9FPd4w+W3efldOxADQAAicqHbiqgPV9Xd3R34QzRv7fqB5ep/xH6IL6hAkDDL7Dao6RjYo1M7Gu1/f+vib/9gsKrf1eGo/dKgwHVxzn2q3dm1qzF6TxvwZdEdyFrnQQLI6VKnfcvUB7+hkUdAkNUu7sAYfBGqfzPGfpwXBf+7+1ZfqA+gAAA 1x, /project-team-3/assets/cabbage@2x-d0b57a45.webp 2x, /project-team-3/assets/cabbage-18222dec.png 1x, /project-team-3/assets/cabbage@2x-4d2f1b22.png 2x"
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width: 1279px) "
+                srcset="/project-team-3/assets/cabbageTablet-5938254b.webp 1x, /project-team-3/assets/cabbageTablet@2x-c4187784.webp 2x, /project-team-3/assets/cabbageTablet-77bb2d5e.png 1x, /project-team-3/assets/cabbageTablet@2x-f80cedeb.png 2x"
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="/project-team-3/assets/cabbageDesc-09eca51b.webp 1x, /project-team-3/assets/cabbageDesc@2x-077df20f.webp 2x, /project-team-3/assets/cabbageDesc-e2d8256a.png 1x, /project-team-3/assets/cabbageDesc@2x-c2ceb361.png 2x"
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Cabbage Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+
+        <label for="tomato-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="tomato-basket"
+            name="tomato_basket"
+            value="done"
+            class="tomato_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card tomato">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/webp;base64,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 1x, /project-team-3/assets/tomato@2x-0f62ab9e.webp 2x, /project-team-3/assets/tomato-db72ed23.png 1x, /project-team-3/assets/tomato@2x-e7766e7c.png "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width:1279px) "
+                srcset="/project-team-3/assets/tomatoTablet-979cfb5f.webp 1x, /project-team-3/assets/tomatoTablet@2x-69b781ea.webp 2x, /project-team-3/assets/tomatoTablet-608ebd9e.png 1x, /project-team-3/assets/tomatoTablet@2x-5e6db89f.png 2x"
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="/project-team-3/assets/tomatoDesc-db18b4b7.webp 1x, /project-team-3/assets/tomatoDesc@2x-3d2bb48d.webp 2x, /project-team-3/assets/tomatoDesc-862d8626.png 1x, /project-team-3/assets/tomatoDesc@2x-46d52a6f.png 2x"
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Tomato Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+
+        <label for="vegetables-basket" class="label-modal">
+          <input
+            type="checkbox"
+            id="vegetables-basket"
+            name="vegetables_basket"
+            value="done"
+            class="vegetables_basket visually-hidden"
+          />
+          <div class="wrapper-checkbox-card vegetables">
+            <div class="icon-illusion">
+              <svg class="icon-ckeckbox" width="6" height="6">
+                <use href="../img/icons.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <picture class="picture-checkbox-card">
+              <!-- Зображення для телефону (до 768px шириною) -->
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/webp;base64,UklGRvAMAABXRUJQVlA4WAoAAAAQAAAAXQAATQAAQUxQSBAFAAABoEVtmyFJ+qO6GmPbtm3btm3btm3btj2zGtue1qCamRHfRWVlRmLvI2ICyKbpU5CTu2d0dR6//MxXYPBar4DEDhI34/O2cTQYVVC2EhGrPYk5AgvwJ6qyPQb/JCbGqDc1wn9uItp3gRwx8MzLPGysgCqmuDJN7RMWrw7C/ImSht1gjkD5xPeCywHgW+p7dz6jWWnxjohq44rLy53Vbn5XcP06gO/iKQA0qS0eEKV/rK5jXsOH2o0lugLvRyHw7vkOL4h6g1/3yhvRxW5Eyb4JACo09wCvyP8Q8CKQyLUf7e3HzkPAp3oOOMUqqcA/LqLa6vOk9qP+eqJWAR+D9gJYxSj5LownB0wVBuEDYQAq/A3gR3u2P+pBoD2CMjBdbDO0OTR3KwDWx00S/a0A2XLg+s/3h7l00Dof+kenP4YJ7iB/O2Q+g+jPF5L4YuP1CF/NpwGhtz4sYjYorABAK1+Ug2tw6A7mgADCEtogcCfnwDC3r4RvNYQ+AAqAC+1a57Qc6xwF4N0SX2yOhuFnn4GDmznux7UaFXwEAE+Tub38WPJ/pPCT30PfbhBAeO94zFLxGw5Y+ij67vHIL6frsAw5mo47DNkiRgGAiAsuC7lqBAN41LbBkGggpOZ9/iWaawmPIZ/qhQIWyhAJDuDipOcAoMJbaMiPVjNYKP4kBYD6C9pcltCFfcxCrn3QHRvqZfb9ILKwe6w+cCvgxSaXdVg/RV/4L2mxeqCersSsQgVjdIkZf8fKeqAL+NUlnkVS3YL+s6qiyOEeA4h92o2ZFZcRUZnLQp+VY5qZVbQsEdWaZhEhAZ7qLLnLjIDDyYiGtYV9TzWOmshMoHQbZ9YsM9tGIY8xyhRyJfTLGmYjeLr5k9krYePb+cj0KrGyhCVepzYt4C/I5pbAKLP8ZgKAkCKssc0kllNRYaaAMGuTCX5Vxs/O2QM27yPPdQXgU6Js9jKFvDLfBMBhb16fycsPs7kVQqsHysvKNRR51ozeUpjJcr/WkK9aA6F3/WXRYJMs+62BtKQ3zOLWUNpIozRPTbJqZXmU7qoDfExpAiVYb7uYOkQUmChlUrcBxhjLNfUJ7Ddl3dnH4Rx4PyONDleqrou2/SfgmDGvDg5v2dwrZfWW3dc+UuCsv9u4iIhYiwuxsKjgVol6+OaXiLhfgYjm34JVFVj3e2jwX20TsBSpiXL3fMIBiKjPL69tW/GDmwBAWMX7RWHyCyQichcqX7ZorrRxXaz0DThn+M3cZDBopAcOGRwFIPrf/nUCdCTo/hpOqHj9myBrtQYF/ElntoXfYVkBcA5AcCED4GOOBfdzkf6GITA9hkPVghAAICIF5D6Jy/xSptVX6Sc8dxR9nigjAtbdyMholld7aieZAd/RF0d2yLDLiJXrkeEOlRnlCdMSn5ZkJCLqLXQIYSk1vzHvfkBEcPCzOzNSkWbmnzpkqma8TipnNv7LnDBhIPkuFg5ACKFH+BAwdyXJHR7dmvSzvZAsYHZjSbX6ktGSHoADIpZ7xfzx/Ir844kUMC4M3I8jKX9eQ9RK4Jfn9094wsP+/AmGXm7AaD+SHD+uMdY2FACU6KjI79dPHz5y5NTJw0f3rJ67Yp+RkC+/PVA5APF7fJAsqSxXrYY18qdLkyl9YtJfyMimnj3aTNh09Ny9+7MykhOyTF1H1V6roxHTdgeSg6YK83ElOTnyUK5xOzM59MAwIPZUSnLsAkumF3eTgzP63wdWUDggugcAAHAhAJ0BKl4ATgA+hTKTR6UioaE0Wh3IoBCJaADJB/tSzqP+f4HU9kLHbm88jpl/oAdLB/isEz/lf0S+Nner4h/iWaZg/6u8KN8HgBOl7QK0P1C/BPRH3sPn3sAeL3nZ+wPYM6VH7sexm7PBzSKe9reukY3Y0NLSZVA0l3ZB36G6jfTc4IGBG+/cc/FVXMY1Prf15eA0hVIrd0aPEwr4hZAtwUjIcqzQ1vQbqfAEFKI7vhxKofhNeeTxHonUdC1shf9I0i7VbV3SrNtZM4/cirNZhh3Hdc3qm9vML9P2sa/nrsNO4uILaYWEPsvpnoGQgJYemhYL3DTBd/10sr0meH60kxjDx7dWW6YenNuA9DuX9i34AAD+/gbRTfh08aCg8cpnohYQXv6obbx9JLy9akSJcouSXR/CIycUEj/WG4tUWVjzOj/fYGriaewNo9DykNLSXPZMv7Bp4T5ZhCATH1XBm45XE6Ku+0w5KTh4PLEZbJGursEl0AqMNSbuMbR9JUp5jCKwYggjP2r7TeMPMl8O2e2ISQ2eCOt60uP8WRvrpaAfig9mbG+wckNZke2dvCposAWNbJEhQFKzLARX8s26wWof0+RvpIhUZuE0CXEUz1oQ6E4T/sIVuigLTdGG9u/HUjIzF0f0GLMcerfrEE0Z+bZnJWNNXSrhuk1GEV4NnTB1XshaujERGsfkz2NiZQ4HZ1zEuY/QhH/y9cpEr3BuxgTIA1T0o7uJbkc//TdA+kjhh2vVpcZfsGb8zZT8ZLNKGwPs8RY0onhAHJH9lBUuE1buHYO/7W8VfqTmhM+iptjMwwS0OkxHA9YhHHe7/dTPghtWQLC5LAzckrzACITUJ16xfoa0NwifRqczT+XUqjkhEk5oB7JGVcFr5fgOIZBPW2EVeLePS/FGjUQkAWi6Fa3Rxps7XbB2PUqpxazh5uIkb9odDpnk4SyNLug9u8KRjPyhFlqmt9517yqgGETx0QcSyLkHrKucym8SlhAYwq+f0Am7f0A7vF0c2v0CjyrAyPkLEvl0crZuPe1fNKMpFscSqGoKTcN7zeV/DUvOA26kHOAGB2IqdTl4IdqSbqJ/eDJcjULkjAoZhG3uV3Z/mJoYLSrk6ECRltji0dfr1f3H9IbmfH806R6mlJniz7+5QbPsOj3+5Vi+lO/0WlISbPnh7LL8fqgy894Tf1wXqRSbGY+QVySxBdgec8pATLCxpR3w5Pq+7fqslhTBi7kZ4nlCLW/r79VTvjjwv66nBFI7uudzVaS1Bpu6trcmzrAYrIpFQFEayJVxqC25U4v0Kc89BgD8JIvDwFoeWMGtIyYuSghFVmzULUjJ7Eu+bUf8Umcp2+Lv7fDZhGDSBQ+e+3UCcM/U381wW0GtnV6frM3KAVNknMPXromJKyLGMgkeyIuB+x4FxOsbPONH4UtLwgCAI2NbRdjZVYRTP24kCXAdShSL3g6tQp/JMTa9xB8fPUQdMiiMPrWUCD/t5mZOribPlqZ5V5l7CeXlkYBC0t/HhnC3gHtRjthwQF/Sby2EmHLNeVk1ySP9JuqacniYjw0DSHQuINRvFBGjlP3MutkI0hnvUh6olgxXUA2pjd12o0hoejtFXe1JFNtVrZlvYkio7ZEsPxMbIUJ/sm+AfXO3GoLD7utinXp+2PXweoqwHx/YWBVzL6/ElSW3MO4XnwPEiDOO3y+Gk/Jc4nORGGHWdOHX/I4OONK5txinEBbxsv+gb3VWyOodhiQ6f8baQ0IQ47pzM7v5yzTF0GctupxPJKn8yqk3HYqVRWTvmKX2Yn85X2Z6qkIK6BJrv4uMAQvw2Aujxlrwm3BKkYqH1Ylh64+ZZNguwgTQux6zeKie/64sMynO76hGzSww7KMtdy84ht/Tc44jfVvTWY8u4nOepfA7Y5+cb2Lf4PeWaUJJ5GEvtgorpc0TeBzMnhmlTUzNoVmn06Y34oKJgRzDsLrZmvIrbaxwcaCMPZuv6mxJ+61vIw3VbghH+Kwy6mXt/HoQrifESum3uVn6PqkIehB+nv0jXz8T52xYdQVD6Ni13cGK/rf8RYiruVw+/dwWqz7XcUSkKsupJK5TsdMHlFOY3yV67gHVg/TTDcTkS7XKyRGQC1cgxLXnqEOP+kBBia6hPUKdSlIMNSU7y2k53X/5v/UtJTUECx01j/3rE0DLK1+vwKmwu/GthqVrIKZXODYBItSyIl5A99HGU8fz64gAJ0c1XOj1+6wxam/HJ/MKIS/5RyKKrbbhCeawCkGOYyApnRkKLN4LJeVWTawc3ij5QUziIoQBOAUdTbeBKBrPSKlwvSyomSwZDXf1xSj8NztY5nNzkt3XLeJ2NaMX5ZGKJcpdFhq7NcGvSZOh94hnwL+/Av2w/+iKamh5mwHBATUasefacu0TL7h7PYY4oEJI5NgAit3lKiLzmO8RoL4GcxfJIVrP+pIK6/LPKgTWI/WU9JG/CqBD3TxETCxc1neJ1KBpsGoY/M8zSlvyfsS/h5YX/1BeQaYtHiK2/L1dPfgyAX58PjBauw/vWrSHX6C9aXz8Luo+z9+LUEYJhudvbWTBWKW9cz38dFXjxUOc+QEJC+3b3/iHQXCoe/nWt/cf/YSyX/Xzf/9ay//rRn//1lYR89X3EAA= 1x, /project-team-3/assets/vegetables-basket@2x-45e1c8d3.webp 2x, /project-team-3/assets/vegetables-basket-43c8864e.png 1x, /project-team-3/assets/vegetables-basket@2x-1e72938d.png "
+              />
+
+              <!-- Зображення для планшета -->
+              <source
+                media="(min-width: 768px) and (max-width:1279px)"
+                srcset="/project-team-3/assets/vegetables-baskeTablet-4be8dbcd.webp 1x, /project-team-3/assets/vegetables-basketTablet@2x-650ebf6a.webp 2x, /project-team-3/assets/vegetables-baskeTablet-fad33d8f.png 1x, /project-team-3/assets/vegetables-basketTablet@2x-5258e5a7.png 2x"
+              />
+
+              <!-- Зображення для ноутбука -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="/project-team-3/assets/vegetablesDesc-c6170d84.webp 1x, /project-team-3/assets/vegetablesDesc@2x-0f006291.webp 2x, /project-team-3/assets/vegetablesDesc-db2b2117.png 1x, /project-team-3/assets/vegetablesDesc@2x-36dba82d.png 2x"
+              />
+
+              <!-- Зображення за замовчуванням (якщо ніякий з source не підходить) -->
+              <img src="photo-default.jpg" alt="Фотографія" />
+            </picture>
+            <h2 class="title-checkbox-card">Vegetables Basket</h2>
+            <p class="subtitle-checkbox-card">Plant</p>
+          </div>
+        </label>
+      </div>
+      <div class="wrapper-input-text">
+        <input
+          name="user-name"
+          type="text"
+          id="user_name"
+          required
+          pattern="^{a-zA-Z а-яА-я іІЇї}+$"
+          minlength="2"
+          placeholder="Enter full name..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-email"
+          type="email"
+          id="user_email"
+          required
+          minlength="2"
+          placeholder="Enter email..."
+          class="input-common input-name"
+        />
+        <input
+          name="user-card"
+          type="text"
+          id="user_card"
+          required
+          minlength="2"
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter card..."
+          class="input-common input-name"
+        />
+        <textarea
+          name="comment-user"
+          id="comment-user"
+          class="textarea-form"
+          placeholder="Enter comments"
+        ></textarea>
+      </div>
+      <button type="submit" class="send-form-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
     
     <!--<header class="page-header">
   <div class="page-header-container container">
