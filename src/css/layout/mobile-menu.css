@@ -30,8 +30,9 @@
 }
 
 .mobile-close-button-icon {
-  max-width: 100%;
-  max-height: 100%;
+  background-color: var(--white);
+  fill: none;
+  stroke: var(--green);
 }
 
 .mobile-menu-navi {
