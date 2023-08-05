@@ -72,10 +72,9 @@
 .advertisment-img {
     margin: 0 auto;
 }
-
-.marquee{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.marquee {
+    padding-top:10px;
+    padding-bottom: 22px;
 }
 
 .marquee-orange {
@@ -161,6 +160,7 @@
 @media screen and (min-width:768px) {
     .bg {
         border-radius: 80px;
+        margin-bottom: 100px;
     }
 
     .bg-pointer {
@@ -218,10 +218,11 @@
         line-height: 2.5em;
     }
 
-    .marquee{
-        padding-top: 100px;
-        padding-bottom: 100px;
+    .marquee {
+        padding-top: 16px;
+        padding-bottom: 30px;
     }
+
     .marquee-orange {
         height: 64px;
         transform: rotate(2deg);
@@ -250,6 +251,7 @@
     .bg {
         padding-left: 80px;
         padding-right: 80px;
+        margin-bottom: 124px;
     }
 
     .bg-pointer {
@@ -283,9 +285,9 @@
         padding: 0 0 20px 54px;
     }
 
-    .marquee{
-        padding-top: 124px;
-        padding-bottom: 124px;
+    .marquee {
+        padding-top: 28px;
+        padding-bottom: 28px;
     }
 
     .marquee-orange {
