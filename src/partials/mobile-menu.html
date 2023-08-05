@@ -1,11 +1,7 @@
 <div class="mobile-menu container js-menu-container">
   <div class="mobile-menu-header container">
     <a></a>
-    <button
-      class="mobile-close-button js-close-menu"
-      type="button"
-      id="toggleMenuButton"
-    >
+    <button class="mobile-close-button js-close-menu" type="button">
       <svg
         class="mobile-close-button-icon"
         width="24"
@@ -36,21 +32,36 @@
   </div>
   <div class="mobile-menu-navi">
     <nav>
-      <ul class="list" id="menu">
+      <ul class="list">
         <li class="mobile-munu-item">
-          <a class="mobile-menu-link" href="#how-it-work">How It Works</a>
+          <a
+            class="mobile-menu-link"
+            href="#"
+            onclick="window.location.reload(); window.location.href = '#how-it-work';"
+            >How It Works</a
+          >
         </li>
         <li class="mobile-munu-item">
-          <a class="mobile-menu-link" href="#vegetables">Vegetables</a>
+          <a
+            class="mobile-menu-link"
+            href="#vegetables"
+            onclick="window.location.reload(); window.location.href = '#vegetables';"
+            >Vegetables</a
+          >
         </li>
         <li class="mobile-munu-item">
-          <a class="mobile-menu-link" href="#contacts">Contacts</a>
+          <a
+            class="mobile-menu-link"
+            href="#contacts"
+            onclick="window.location.reload(); window.location.href = '#contacts';"
+            >Contacts</a
+          >
         </li>
       </ul>
     </nav>
     <button type="button" class="button mobile-menu-oder-btn-icon">
       <svg class="" width="20" height="20">
-        <use href="../img/icons.svg#icon-shopping-cart"></use>
+        <use href="./img/icons.svg#icon-shopping-cart"></use>
       </svg>
     </button>
   </div>
