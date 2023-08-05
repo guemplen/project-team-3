@@ -90,9 +90,13 @@
   background-color: var(--lite-orange);
   margin-bottom: 8px;
   transition: color 250ms linear, background-color 250ms linear;
+  transform: scale();
+  transition-property: transform;
+  transition-duration: 250ms;
 }
 .hero-order-btn:focus {
   background-color: var(--light-green);
+  transform: scale(0.75);
 }
 .hero-order-btn-text {
   transform: rotate(-14deg);
