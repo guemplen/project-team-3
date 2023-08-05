@@ -36,8 +36,8 @@
 }
 
 .mobile-menu-navi {
+  height: 100%;
   padding-top: 124px;
-  padding-bottom: 100%;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
