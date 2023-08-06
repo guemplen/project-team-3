@@ -51,8 +51,11 @@
   margin-bottom: 16px;
 }
 
-.mobile-menu-oder-btn-icon {
+.mobile-menu-oder-button {
   background-color: var(--green);
+}
+
+.mobile-menu-oder-button-icon {
   fill: none;
   stroke: var(--white);
 }

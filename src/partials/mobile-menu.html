@@ -1,47 +1,47 @@
 <div class="mobile-menu js-menu-container">
   <div class="mobile-menu-header container">
     <a></a>
-    <button class="mobile-close-button js-close-menu" type="button">
-      <svg class="mobile-close-button-icon" width="24" height="24">
+    <button
+      class="mobile-close-button js-close-menu"
+      type="button"
+      aria-label="mobile menu close"
+    >
+      <svg
+        class="mobile-close-button-icon"
+        width="24"
+        height="24"
+        aria-label="mobile menu close icon"
+      >
         <use href="./img/icons.svg#icon-close-button"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu-navi">
+  <div class="mobile-menu-navi js-nav-ref">
     <nav>
       <ul class="list">
         <li class="mobile-munu-item">
-          <a
-            class="mobile-menu-link"
-            href="#how-it-work"
-            onclick="window.location.reload(); window.location.href = '#how-it-work';"
-            >How It Works</a
-          >
+          <a class="mobile-menu-link" href="#how-its-work">How It Works</a>
         </li>
         <li class="mobile-munu-item">
-          <a
-            class="mobile-menu-link"
-            href="#vegetables"
-            onclick="window.location.reload(); window.location.href = '#vegetables';"
-            >Vegetables</a
-          >
+          <a class="mobile-menu-link" href="#vegetables">Vegetables</a>
         </li>
         <li class="mobile-munu-item">
-          <a
-            class="mobile-menu-link"
-            href="#contacts"
-            onclick="window.location.reload(); window.location.href = '#contacts';"
-            >Contacts</a
-          >
+          <a class="mobile-menu-link" href="#contacts">Contacts</a>
         </li>
       </ul>
     </nav>
     <button
       type="button"
-      class="button mobile-menu-oder-btn-icon"
+      class="button mobile-menu-oder-button"
       data-modal-open
+      aria-label="open order on mobile"
     >
-      <svg class="" width="20" height="20">
+      <svg
+        class="mobile-menu-oder-button-icon"
+        width="20"
+        height="20"
+        aria-label="mobile menu order icon"
+      >
         <use href="./img/icons.svg#icon-shopping-cart"></use>
       </svg>
     </button>
