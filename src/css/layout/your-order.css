@@ -29,7 +29,7 @@
 
 .title-modal {
   color: var(--black);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
@@ -200,65 +200,78 @@
     width: 92%;
   }
 }
+
 @media screen and (min-width: 768px) {
   .modal {
     width: 704px;
     padding: 40px;
+  }
+  .modal::after {
+    content: '';
+    position: absolute;
+  }
+  .title-modal {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+  .wrapper-checkbox {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .wrapper-checkbox-card {
+    width: 200px;
+    height: 250px;
+    padding-top: 40px;
+  }
+  .picture-checkbox-card {
+    top: 94px;
+    right: 14px;
+  }
+  .input-common {
+    max-width: 360px;
+    height: 48px;
+  }
+  .textarea-form {
+    width: 360px;
+    height: 145px;
+  }
+  .send-form-btn {
+    padding: 15px 35px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .modal::after {
+    top: 440px;
+    right: 0;
     background-image: url('/img/modal/tablet/girl.png');
     background-repeat: no-repeat;
-    background-position: 415px 450px;
     background-size: 290px 415px;
+    height: 415px;
+    width: 290px;
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .modal {
+    .modal::after {
       background-image: url('/img/modal/tablet/girl@2x.png');
     }
   }
   @supports (background-image: url('/img/modal/tablet/girl.png')) {
-    .modal {
+    .modal::after {
       background-image: url('/img/modal/tablet/girl.webp');
     }
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      .modal {
+      .modal::after {
         background-image: url('/img/modal/tablet/girl@2x.webp');
       }
     }
     .title-modal {
-      font-size: 40px;
-      line-height: 44px;
-      letter-spacing: -1.6px;
-    }
-    .wrapper-checkbox {
-      flex-direction: row;
-      gap: 12px;
-    }
-
-    .wrapper-checkbox-card {
-      width: 200px;
-      height: 250px;
-      padding-top: 40px;
-    }
-    .picture-checkbox-card {
-      top: 94px;
-      right: 14px;
-    }
-    .input-common {
-      max-width: 360px;
-      height: 48px;
-    }
-    .textarea-form {
-      width: 360px;
-      height: 145px;
-    }
-    .send-form-btn {
-      padding: 15px 35px;
-    }
   }
 }
 @media screen and (min-width: 1280px) {
@@ -276,29 +289,33 @@
     top: 94px;
     right: 9px;
   }
-  .modal {
+
+  .modal::after {
+    height: 413px;
+    width: 444px;
+    top: 505px;
+    right: -30px;
     background-image: url('/img/modal/desctop/girlDesc.png');
     background-repeat: no-repeat;
-    background-position: 440px 501px;
     background-size: 444px 413px;
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .modal {
+    .modal::after {
       background-image: url('/img/modal/desctop/girlDesc@2x.png');
     }
   }
   @supports (background-image: url('/img/modal/desctop/girlDesc.png')) {
-    .modal {
+    .modal::after {
       background-image: url('/img/modal/desctop/girlDesc.webp');
     }
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      .modal {
+      .modal::after {
         background-image: url('/img/modal/desctop/girlDesc@2x.webp');
       }
     }
