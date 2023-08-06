@@ -101,11 +101,14 @@
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
+  transform: scale(1);
+  transition: transform 250ms;
+  transition: background-color 250ms linear;
 }
 
 .vegetables-button:focus {
   background-color: var(--green);
-  outline: 3px solid var(--light-green);
+  transform: scale(0.75);
 }
 
 .vegetables-button-rotate {
@@ -257,6 +260,5 @@
 
   .vegetables-button:hover {
     background-color: var(--green);
-    outline: 3px solid var(--light-green);
   }
 }
