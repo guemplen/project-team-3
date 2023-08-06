@@ -272,51 +272,52 @@
       }
     }
     .title-modal {
-  }
-}
-@media screen and (min-width: 1280px) {
-  .modal {
-    width: 891px;
-  }
-  .wrapper-checkbox {
-    gap: 20px;
-  }
-  .wrapper-checkbox-card {
-    width: 257px;
-    height: 308px;
-  }
-  .picture-checkbox-card {
-    top: 94px;
-    right: 9px;
-  }
-
-  .modal::after {
-    height: 413px;
-    width: 444px;
-    top: 505px;
-    right: -30px;
-    background-image: url('/img/modal/desctop/girlDesc.png');
-    background-repeat: no-repeat;
-    background-size: 444px 413px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal::after {
-      background-image: url('/img/modal/desctop/girlDesc@2x.png');
     }
   }
-  @supports (background-image: url('/img/modal/desctop/girlDesc.png')) {
+  @media screen and (min-width: 1280px) {
+    .modal {
+      width: 891px;
+    }
+    .wrapper-checkbox {
+      gap: 20px;
+    }
+    .wrapper-checkbox-card {
+      width: 257px;
+      height: 308px;
+    }
+    .picture-checkbox-card {
+      top: 94px;
+      right: 9px;
+    }
+
     .modal::after {
-      background-image: url('/img/modal/desctop/girlDesc.webp');
+      height: 413px;
+      width: 444px;
+      top: 505px;
+      right: -30px;
+      background-image: url('/img/modal/desctop/girlDesc.png');
+      background-repeat: no-repeat;
+      background-size: 444px 413px;
     }
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .modal::after {
-        background-image: url('/img/modal/desctop/girlDesc@2x.webp');
+        background-image: url('/img/modal/desctop/girlDesc@2x.png');
+      }
+    }
+    @supports (background-image: url('/img/modal/desctop/girlDesc.png')) {
+      .modal::after {
+        background-image: url('/img/modal/desctop/girlDesc.webp');
+      }
+      @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .modal::after {
+          background-image: url('/img/modal/desctop/girlDesc@2x.webp');
+        }
       }
     }
   }
