@@ -90,7 +90,7 @@
   background-color: var(--lite-orange);
   margin-bottom: 8px;
   transition: color 250ms linear, background-color 250ms linear;
-  transform: scale();
+  transform: scale(1);
   transition-property: transform;
   transition-duration: 250ms;
 }
