@@ -63,19 +63,31 @@
     letter-spacing: -0.56px;
     color: var(--black);
   }
+  .menu-link {
+    transition: color 250ms linear;
+  }
+  .menu-link:focus {
+    color: var(--logo-color);
+  }
   .menu-logo {
     margin-left: 86px;
   }
   .menu-order-btn {
+    z-index: -1;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
     padding: 16px 0;
   }
-  .menu-oder-btn-icon {
+
+  .menu-order-btn-icon {
     fill: none;
     stroke: var(--black);
+    transition: stroke 250ms linear;
+  }
+  .menu-order-btn:focus .menu-order-btn-icon {
+    stroke: var(--logo-color);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -83,11 +95,17 @@
     min-width: 668px;
     justify-content: space-between;
   }
+  .menu-link:hover {
+    color: var(--logo-color);
+  }
   .menu-logo {
     margin-left: 0px;
   }
-  .menu-oder-btn-icon {
+  .menu-order-btn-icon {
     width: 24px;
     height: 24px;
+  }
+  .menu-order-btn:hover .menu-order-btn-icon {
+    stroke: var(--logo-color);
   }
 }
