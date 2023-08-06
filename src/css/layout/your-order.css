@@ -271,10 +271,9 @@
         background-image: url('/img/modal/tablet/girl@2x.webp');
       }
     }
-    .title-modal {
-    }
   }
 }
+
 @media screen and (min-width: 1280px) {
   .modal {
     width: 891px;
