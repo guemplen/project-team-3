@@ -22,6 +22,7 @@
   margin: 0 auto;
 }
 .page-header-container {
+  scroll-behavior: smooth;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,6 +48,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  #how-it-work {
+    height: 100%;
+  }
+  #vegetables {
+    height: 100%;
+  }
+  #contacts {
+    height: 100%;
+  }
+
   .menu-burger-btn {
     display: none;
   }
