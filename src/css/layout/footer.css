@@ -46,6 +46,11 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
+  transition: color 200ms linear, fill 200ms linear;
+}
+.navigation-footer-link:hover,
+.navigation-footer-link:focus {
+  color: var(--green);
 }
 
 .social-item-footer:hover,
@@ -81,7 +86,14 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   display: block;
+  transition: color 200ms linear, fill 200ms linear;
 }
+
+.phone-wrapper:hover,
+.phone-wrapper:focus {
+  color: var(--green);
+}
+
 .adress-wrapper {
   width: 135px;
   color: #141414;
