@@ -18,7 +18,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
 }
-.logo-wrapper-footer {
+.logo-link-footer {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -106,6 +106,10 @@
   letter-spacing: -0.28px;
   text-align: center;
   display: block;
+}
+.adress_link:hover,
+.adress_link:focus {
+  color: var(--green);
 }
 
 @media screen and (min-width: 768px) {
